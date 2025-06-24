@@ -1,0 +1,44 @@
+.search-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+}
+
+.filter-section {
+  margin-bottom: 1.5rem;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #eee;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.disease-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.disease-card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
